@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require("body-parser");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
+const TextEncoder = require('@webassemblyjs/utf8').TextEncoder;
 const nodemailer = require("nodemailer");
 const randomstring = require("randomstring");
 const mongoose = require("mongoose");
